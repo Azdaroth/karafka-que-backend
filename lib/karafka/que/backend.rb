@@ -1,10 +1,9 @@
-require "karafka/que/backend/version"
+# frozen_string_literal: true
 
 module Karafka
   module Que
     module Backend
-      class Error < StandardError; end
-      # Your code goes here...
+      VERSION = "0.1.0"
     end
   end
 end
